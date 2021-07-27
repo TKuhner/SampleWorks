@@ -1,0 +1,22 @@
+package SampleWorks.ProblemSolving;
+
+import java.util.*;
+
+public class SolveMeFirst {
+
+    public static void main(String[] args){
+        Scanner sc = new Scanner(System.in);
+
+        int a = 0;
+        int b = 0;
+        int sum;
+
+        a = sc.nextInt();
+        b = sc.nextInt();
+
+        sum = a + b;
+
+        System.out.println(sum);
+    }
+
+}
